@@ -1,0 +1,1 @@
+cmd_/home/misu/Desktop/kernel/hello.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/misu/Desktop/kernel/hello.ko /home/misu/Desktop/kernel/hello.o /home/misu/Desktop/kernel/hello.mod.o;  true
